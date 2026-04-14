@@ -1,8 +1,10 @@
 # 🏔️ HikeHide
 
+🌐 **Live Demo:** https://hike-hide-1.onrender.com/listings
+
 HikeHide is a full-stack web application inspired by Airbnb, where users can explore, create, and manage travel listings. It allows users to discover unique stays, filter listings by category, and interact with the platform through authentication and reviews.
 
-🌐 **Live Demo:** https://hike-hide-1.onrender.com/listings
+---
 
 ## 🚀 Features
 
@@ -39,22 +41,22 @@ HikeHide is a full-stack web application inspired by Airbnb, where users can exp
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
+**Frontend**
 
 * EJS
 * Bootstrap
 * CSS
 
-**Backend:**
+**Backend**
 
 * Node.js
 * Express.js
 
-**Database:**
+**Database**
 
 * MongoDB (MongoDB Atlas)
 
-**Other Tools:**
+**Other Tools**
 
 * Cloudinary (Image uploads)
 * Multer (File handling)
@@ -80,7 +82,7 @@ HikeHide/
 └── .env
 ```
 
-
+---
 
 ## ⚙️ Installation & Setup
 
@@ -93,35 +95,35 @@ cd Hike-Hide
 
 ### 2️⃣ Install Dependencies
 
-
+```
 npm install
-
+```
 
 ### 3️⃣ Setup Environment Variables
 
 Create a `.env` file in root:
 
-
+```
 ATLASDB_URL=your_mongodb_connection_string
 SESSION_SECRET=your_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_KEY=your_key
 CLOUDINARY_SECRET=your_secret
-
+```
 
 ### 4️⃣ Run the Application
 
-
+```
 npm start
-
+```
 
 App will run on:
 
-
+```
 http://localhost:8080
+```
 
-
-
+---
 
 ## 🌐 Deployment
 
@@ -130,7 +132,7 @@ This project is deployed using:
 * Render (Backend)
 * MongoDB Atlas (Database)
 
-
+---
 
 ## 📌 Future Improvements
 
@@ -141,20 +143,20 @@ This project is deployed using:
 * JWT-based authentication (for frontend-backend separation)
 * Full MERN stack conversion
 
-
+---
 
 ## 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork this repository and submit a pull request.
 
-
+---
 
 ## 📄 License
 
 This project is licensed under the ISC License.
 
-
+---
 
 ## 👨‍💻 Author
 
